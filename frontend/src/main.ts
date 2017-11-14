@@ -3,6 +3,7 @@ import {LeadProviderAjax} from "./LeadProviderAjax";
 import {Users, UsersProvider, UsersProviderFake} from "./User";
 import {UsersProviderAjax} from "./UsersProviderAjax";
 import {UIReportBuilder} from "./UIReportBuilder";
+import {Notifier} from "./Notifier";
 
 jQuery(function () {
 
@@ -28,4 +29,6 @@ jQuery(function () {
         new UIReportBuilder("table.table tbody").apply(users);
     });
 
+    let notifier:Notifier = new Notifier();
+    notifier.connect();
 })

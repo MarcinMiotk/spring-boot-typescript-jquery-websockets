@@ -1,0 +1,55 @@
+{
+  "all": 10,
+  "users": [
+    {
+      "sequence": 1,
+      "name": "Mark Otto",
+      "username": "@mdoa"
+    },
+    {
+      "sequence": 2,
+      "name": "De Vries",
+      "username": "@mdob"
+    },
+    {
+      "sequence": 3,
+      "name": "Bakker Visser",
+      "username": "@fdfe"
+    },
+    {
+      "sequence": 4,
+      "name": "De Boer",
+      "username": "@gaee"
+    },
+    {
+      "sequence": 5,
+      "name": "Bos Dekker",
+      "username": "@gbeq"
+    },
+    {
+      "sequence": 6,
+      "name": "Brouwer Smits",
+      "username": "@maqq"
+    },
+    {
+      "sequence": 7,
+      "name": "Dijkstra De Graaf",
+      "username": "@fsar"
+    },
+    {
+      "sequence": 8,
+      "name": "Peters Hendriks",
+      "username": "@kkrk"
+    },
+    {
+      "sequence": 9,
+      "name": "De Boer Dekker",
+      "username": "@mwor"
+    },
+    {
+      "sequence": 10,
+      "name": "Van Dijk, Van Dyk",
+      "username": "@pppwq"
+    }
+  ]
+}

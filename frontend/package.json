@@ -1,0 +1,25 @@
+{
+  "name": "activetable",
+  "version": "1.0.0",
+  "description": "Demonstration TypeScript and JQuery and WebPack and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "JQuery",
+    "WebPack",
+    "Bootstrap"
+  ],
+  "author": "Marcin Miotk",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

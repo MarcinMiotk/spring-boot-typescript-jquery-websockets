@@ -1,5 +1,13 @@
 Tworzenie plkiku store.JKS
 
+======================================================================
+
+Linki:
+
+https://blogs.oracle.com/jtc/installing-trusted-certificates-into-a-java-keystore
+
+
+======================================================================
 
 mami@NB-MMIOTK /cygdrive/d/temp/stores
 $ keytool -keystore mami.jks -genkeypair -keyalg rsa

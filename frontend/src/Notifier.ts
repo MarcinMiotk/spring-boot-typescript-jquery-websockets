@@ -2,7 +2,7 @@ import * as SockJS from "sockjs-client";
 
 export class Notifier {
 
-    private url:string = "http://localhost:8081/echo";
+    private url:string = "https://localhost:8081/echo";
     private sock:SockJS.Socket;
 
     send(message:string):void {

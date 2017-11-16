@@ -1,0 +1,69 @@
+Tworzenie plkiku store.JKS
+
+
+mami@NB-MMIOTK /cygdrive/d/temp/stores
+$ keytool -keystore mami.jks -genkeypair -keyalg rsa
+Enter keystore password:  password
+Re-enter new password: password
+What is your first and last name?
+  [Unknown]:  Marcin Miotk
+What is the name of your organizational unit?
+  [Unknown]:  SnMill
+What is the name of your organization?
+  [Unknown]:  SnMill
+What is the name of your City or Locality?
+  [Unknown]:  Cracow
+What is the name of your State or Province?
+  [Unknown]:
+What is the two-letter country code for this unit?
+  [Unknown]:  PL
+Is CN=Marcin Miotk, OU=SnMill, O=SnMill, L=Cracow, ST=Unknown, C=PL correct?
+  [no]:  yes
+
+
+mami@NB-MMIOTK /cygdrive/d/temp/stores
+$ ls -al
+razem 20
+drwxr-xr-x+ 1 mami     mkpasswd    0 11-16 07:52 .
+d---------+ 1 ???????? ????????    0 11-16 07:46 ..
+-rwxr-xr-x  1 mami     mkpasswd 2562 11-16 07:52 mami.jks
+
+mami@NB-MMIOTK /cygdrive/d/temp/stores
+$ keytool
+Key and Certificate Management Tool
+
+Commands:
+
+ -certreq            Generates a certificate request
+ -changealias        Changes an entry's alias
+ -delete             Deletes an entry
+ -exportcert         Exports certificate
+ -genkeypair         Generates a key pair
+ -genseckey          Generates a secret key
+ -gencert            Generates certificate from a certificate request
+ -importcert         Imports a certificate or a certificate chain
+ -importpass         Imports a password
+ -importkeystore     Imports one or all entries from another keystore
+ -keypasswd          Changes the key password of an entry
+ -list               Lists entries in a keystore
+ -printcert          Prints the content of a certificate
+ -printcertreq       Prints the content of a certificate request
+ -printcrl           Prints the content of a CRL file
+ -storepasswd        Changes the store password of a keystore
+
+Use "keytool -command_name -help" for usage of command_name.
+Use the -conf <url> option to specify a pre-configured options file.
+
+mami@NB-MMIOTK /cygdrive/d/temp/stores
+$ keytool -keystore mami.jks -list
+Enter keystore password:  password
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+mykey, 16.11.2017, PrivateKeyEntry,
+Certificate fingerprint (SHA-256): 3C:98:EF:B1:A7:41:98:D3:B6:73:F6:EB:BB:E2:68:0A:86:54:6B:F4:3D:04:31:17:71:D4:52:4D:B5:C6:C1:AA
+
+mami@NB-MMIOTK /cygdrive/d/temp/stores
+$

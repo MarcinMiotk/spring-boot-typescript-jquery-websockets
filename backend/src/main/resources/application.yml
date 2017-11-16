@@ -4,6 +4,17 @@ server:
   address: localhost
   servlet:
     context-path: /
+  ssl:
+    enabled: true
+    key-store: classpath:mami.jks
+    key-store-password: password
+    key-password: password
+---
+management:
+  server:
+    port: 4444
+    ssl:
+      enabled: true
 ---
 modules:
   frontend:
